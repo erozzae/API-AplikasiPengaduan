@@ -13,6 +13,6 @@ class Komentar extends Model
         return $this->belongsTo('App\User','id_user');
     }
     public function postingan(){
-        return $this->belongsTo('App\User','id_postingan');
+        return $this->belongsTo('App\Postingan','id_postingan');
     }
 }
